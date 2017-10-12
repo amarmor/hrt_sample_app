@@ -1,10 +1,5 @@
 source 'https://rubygems.org'
 
-#git_source(:github) do |repo_name|
-#  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
-#  "https://github.com/#{repo_name}.git"
-#end
-
 gem 'rails', '5.1.2'
 gem 'bcrypt', '3.1.11'
 gem 'faker', '1.7.3'
@@ -42,7 +37,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.18.4'
+  gem 'pg', '0.20.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-beta gem

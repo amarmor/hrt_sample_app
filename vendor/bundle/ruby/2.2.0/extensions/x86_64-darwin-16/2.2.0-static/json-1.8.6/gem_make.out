@@ -1,0 +1,9 @@
+/Users/nickcamillo/.rbenv/versions/2.2.2/bin/ruby -r ./siteconf20171011-28878-piyda7.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install
